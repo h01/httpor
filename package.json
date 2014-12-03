@@ -1,0 +1,23 @@
+{
+  "name": "httpor",
+  "version": "0.0.2",
+  "description": "The http(s) request package",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/h01/httpor.git"
+  },
+  "keywords": [
+    "httpor",
+    "http.get",
+    "http.post"
+  ],
+  "author": "Holger",
+  "bugs": {
+    "url": "https://github.com/h01/httpor/issues"
+  },
+  "homepage": "https://github.com/h01/httpor",
+  "dependencies": {
+    "iconv-lite": "0.4.5"
+  }
+}
