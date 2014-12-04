@@ -45,6 +45,7 @@ httpor.post({
 *  port    目标端口    
 *  path    请求的路径    
 *  success    请求成功回调函数，返回一个包含数据(data)，状态码(code)，头信息(head)的对象    
+
 ##### 其他可选参数：    
 *  headers 请求头信息    
 *  encode  页面编码，默认utf8    
