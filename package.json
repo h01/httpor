@@ -1,16 +1,18 @@
 {
   "name": "httpor",
-  "version": "0.0.2",
-  "description": "The http(s) request package",
-  "main": "index.js",
+  "version": "0.0.4",
+  "description": "The HTTP Operator",
+  "main": "httpor.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/h01/httpor.git"
   },
   "keywords": [
     "httpor",
-    "http.get",
-    "http.post"
+    "get",
+    "post",
+    "request",
+    "ajax"
   ],
   "author": "Holger",
   "bugs": {
