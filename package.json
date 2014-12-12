@@ -1,6 +1,6 @@
 {
   "name": "httpor",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The HTTP Operator",
   "main": "httpor.js",
   "repository": {
@@ -12,7 +12,8 @@
     "get",
     "post",
     "request",
-    "ajax"
+    "ajax",
+    "url2opt"
   ],
   "author": "Holger",
   "bugs": {

@@ -4,7 +4,7 @@ Httpor::The Http Operator
 HTTP操作者，意于简化与快捷地进行HTTP网络操作，可适用于各种网络爬虫或者数据提交。
 
 #### 安装
-```shell
+```bash
 $ // 第一次安装
 $ npm install httpor
 $ // 如果已经安装 升级即可
@@ -40,11 +40,15 @@ httpor.request({
 	path: '/api/json',
 	prot: 'http',
 	method: 'POST',
+	// 如果为POST 则需要data
 	data: {
 		type: 'test'
 	},
+	// 可选 页面编码
 	encode: 'gbk',
+	// 可选 发送头信息
 	headers: {
+		'Cookie': 'test-cookie',
 		'User-Agent': 'test!',
 		'Content-Type': 'application/x-www-form-urlencoded'
 	}
